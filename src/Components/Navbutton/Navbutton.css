@@ -1,0 +1,14 @@
+
+.navbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+    filter: brightness(55%);
+}
+
+.navbutton:hover {
+    filter: brightness(100%);
+}

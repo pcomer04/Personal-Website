@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Home  from './Components/Home/Home';
+import Navbutton from './Components/Navbutton/Navbutton';
 
 export {
-  Home
+  Home,
+  Navbutton
   }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

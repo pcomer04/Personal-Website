@@ -1,25 +1,49 @@
-/* Split the screen in half */
+
 .split {
   height: 100%;
-  width: 50%;
+  width: 100%;
   position: fixed;
   z-index: 1;
   top: 0;
   overflow-y: hidden;
   overflow-x: hidden;
+  display: flex;
 }
 
-/* Control the left side */
+.dimmer {
+  flex: 1;
+  background-color: #f2f2f2;
+  filter: brightness(55%); 
+  transition: filter 0.8s ease;
+}
+
+.dimmer:hover {
+  filter: brightness(100%);
+  transition: filter 0.8s ease;
+}
+
 .student-side {
   left: 0;
+  transition: transform 1s ease;
+}
+.student-side:hover{
+  transform: scale(1.1);
+  z-index: 2;
+  transition: transform 1s ease;
 }
 
-/* Control the right side */
 .musician-side {
   right: 0;
+  transition: transform 1s ease;
+  z-index: 1;
 }
 
-/* If you want the content centered horizontally and vertically */
+.musician-side:hover{
+  transform: scale(1.1);
+  z-index: 2;
+  transition: transform 1s ease;
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -30,10 +54,9 @@
   height: 100%;
 }
 
-/* Style the image inside the centered container, if needed */
 .centered img {
   width: 100%;
   height: 100vh;
-  object-fit: cover; /* Ensure the image covers the entire container */
+  object-fit: cover; 
 }
 
