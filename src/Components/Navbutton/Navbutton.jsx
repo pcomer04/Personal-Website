@@ -4,7 +4,7 @@ import "./Navbutton.css";
 
 const Navbutton = ({ path, text }) => {
   const navigate = useNavigate();
-  return <button className="Navbutton" onClick={() => navigate(path)}>{text}</button>;
+  return <button className="navbutton" onClick={() => navigate(path)}>{text}</button>;
 };
 
 export default Navbutton;
