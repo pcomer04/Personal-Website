@@ -52,10 +52,12 @@
 
 .student-side .navigation, .musician-side .navigation {
   position: absolute;
-  top: 50%;
+  top: 93%;
   transform: translateY(-50%);
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+

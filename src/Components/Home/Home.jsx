@@ -1,8 +1,12 @@
 import React from "react";
 import "./Home.css";
 import { Navbutton } from "../../index";
+import githubIcon from "../../../public/Assets/icons/icons8-github.svg";
+import linkedinIcon from "../../../public/Assets/icons/icons8-linkedin.svg";
 
-const Home = () => {
+
+const Home = () => {    
+
   return (
     <div className="split">
       <div className="dimmer student-side">
