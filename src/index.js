@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Home  from './Components/Home/Home';
 import Navbutton from './Components/Navbutton/Navbutton';
+import "@fontsource/eb-garamond";
 
 export {
   Home,
