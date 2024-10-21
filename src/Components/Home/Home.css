@@ -1,9 +1,17 @@
-.split {
+.home-page{
+
+  position: relative;
   height: 100%;
   width: 100%;
-  position: fixed;
+
+}
+
+.split {
+  height: calc(100vh - 60px); /* Adjust height to account for the navbar */
+  width: 100vw;
+  position: relative;
   z-index: 0;
-  top: 0;
+  top: 60px;
   overflow-y: hidden;
   overflow-x: hidden;
   display: flex;
@@ -11,14 +19,31 @@
 
 .dimmer {
   flex: 1;
-  background-color: #f2f2f2;
-  filter: brightness(55%); 
-  transition: filter 0.8s ease;
+  filter: grayscale(100%);
+  position: relative;
+  overflow: hidden;
+
 }
 
-.dimmer:hover {
-  filter: brightness(100%);
-  transition: filter 0.8s ease;
+.dimmer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(199, 102, 255, 0.3); /* Purple color with 50% transparency */
+  opacity: 0; /* Hide the overlay by default */
+  transition: opacity 0.8s ease; /* Smooth transition for the overlay */
+}
+
+.dimmer:hover{
+  filter: grayscale(0%);
+  transition: filter 2s ease;
+}
+
+.dimmer:hover::before {
+  opacity: 1; /* Show the overlay on hover */
 }
 
 .student-side {
@@ -51,7 +76,7 @@
 
 .student-side .navigation, .musician-side .navigation {
   position: absolute;
-  top: 93%;
+  top: 90%;
   transform: translateY(-50%);
   width: 100%;
   display: flex;
@@ -59,23 +84,26 @@
   align-items: center;
 }
 
-
-.name-title {
-  position: fixed;
-  top: 2%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 4rem;
-  color: white;
-  z-index: 2; 
-  text-align: center;
-}
-
-
 a {
   color: inherit; 
   text-decoration: inherit;
 }
 
+.picture-labels {
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  position: absolute;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: white;
+  font-size: 2.5em;
+  opacity: 0; 
+  transition: opacity 0.8s ease; 
+}
 
-
+.dimmer:hover .picture-labels {
+  opacity: 1; /* Show the text on hover */
+}

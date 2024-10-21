@@ -6,13 +6,17 @@ import Home  from './Components/Home/Home';
 import Navbutton from './Components/Navbutton/Navbutton';
 import Contact from './Components/Contact/Contact';
 import Academics from './Components/Academics/Academics';
+import Navbar from './Components/Navbar/Navbar';
+import Musician from './Components/Musician/Musician';
 import "@fontsource/eb-garamond";
 
 export {
   Home,
   Navbutton,
   Contact,
-  Academics
+  Navbar,
+  Academics,
+  Musician
   }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

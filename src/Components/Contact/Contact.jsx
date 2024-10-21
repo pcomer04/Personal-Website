@@ -13,11 +13,18 @@ const Contact = () => {
         </div>
         <div className="contact-info">
           <h1>Contact Information</h1>
-          <p> Email: pcomer04@centurylink.net</p>
-          <p> Phone: 531-205-0580</p>
+          <div className="information">
+            <p className="email"> Email: pcomer04@centurylink.net</p>
+            <p className="phone"> Phone: 531-205-0580</p>
+          </div>
           <div className="socials">
-            <a href="https://github.com/pcomer04"><GithubIcon className="github"/></a>
-            <a href="https://www.linkedin.com/in/peyton-comer-b3a7b7229/"> <LinkedinIcon className="linkedin"/></a>
+            <a href="https://github.com/pcomer04">
+              <GithubIcon className="github" />
+            </a>
+            <a href="https://www.linkedin.com/in/peyton-comer-b3a7b7229/">
+              {" "}
+              <LinkedinIcon className="linkedin" />
+            </a>
           </div>
         </div>
       </div>
