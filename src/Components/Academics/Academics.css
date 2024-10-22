@@ -1,0 +1,103 @@
+.academic-page {
+  background-color: #2f2a38;
+  height: 100%;
+  width: 100%;
+}
+
+.experience {
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  top: 60px;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.academic-title {
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.projects {
+  height: 750px;
+  background: linear-gradient(to right, #c766ff, #9932d5);
+  display: flex;
+  flex-direction: column;
+  top: 60px;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 2;
+}
+
+.carousel .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel .legend {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+.skills {
+  height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.skills-grid {
+  align-self: center;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.335%;
+  grid-template-rows: 50% 50%;
+  gap: 50px 40px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "skill1 skill2 skill3"
+    "skill4 skill5 skill6";
+  width: 50%;
+  height: 50%;
+  margin-left: -5%;
+  margin-top: 5%;
+}
+
+.skill1, .skill2, .skill3, .skill4, .skill5, .skill6 {
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    background-color: #595166;
+    color: white; /* Optional: Set text color */
+    font-size: 1.5rem; /* Optional: Set font size */
+    padding: 20px; /* Optional: Add padding */
+    border-radius: 10px; /* Optional: Add rounded corners */
+  }
+
+.skill1 {
+  grid-area: skill1;
+}
+
+.skill2 {
+  grid-area: skill2;
+}
+
+.skill3 {
+  grid-area: skill3;
+}
+
+.skill4 {
+  grid-area: skill4;
+}
+
+.skill5 {
+  grid-area: skill5;
+}
+
+.skill6 {
+  grid-area: skill6;
+}

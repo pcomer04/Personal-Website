@@ -3,6 +3,8 @@ import "./Contact.css";
 import headshot from "../../Assets/student/Headshot.jpg";
 import { ReactComponent as GithubIcon } from "../../Assets/icons/icons8-github.svg";
 import { ReactComponent as LinkedinIcon } from "../../Assets/icons/icons8-linkedin.svg";
+import { FaPhone } from "react-icons/fa6";
+import { MdOutlineEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
@@ -14,8 +16,9 @@ const Contact = () => {
         <div className="contact-info">
           <h1>Contact Information</h1>
           <div className="information">
-            <p className="email"> Email: pcomer04@centurylink.net</p>
-            <p className="phone"> Phone: 531-205-0580</p>
+            <p className="email"> <MdOutlineEmail className="icon"/> pcomer04@centurylink.net</p>
+            <p className="phone"> <FaPhone className="icon"/> 531-205-0580</p>
+            
           </div>
           <div className="socials">
             <a href="https://github.com/pcomer04">

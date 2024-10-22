@@ -1,11 +1,14 @@
-body, html {
+
+body,
+html {
   margin: 0;
-  font-family: Garamond, serif;
+  font-family: 'Montserrat', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+

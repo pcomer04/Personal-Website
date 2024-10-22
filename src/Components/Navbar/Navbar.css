@@ -3,14 +3,15 @@
   z-index: 80;
   display: flex;
   position: fixed;
-  overflow: hidden;
-  width: 100%;
+  top: 0;
+  left: 0;
+  width: 100vw;
   height: 10%;
+  overflow: hidden;
   color: white;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-
 }
 .navbar::after {
   content: '';
@@ -39,7 +40,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 35%;
+  padding-left: 30%;
 }
 
 .navbar .musician-info {
@@ -48,15 +49,16 @@
 }
 
 .navbar .academic-text {
-    position: relative;
+  position: relative;
   font-weight: lighter;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 35%;
+  padding-left: 30%;
 }
 
 .navbar .academic-info {
   margin: 10%;
   font-weight: lighter;
 }
+
