@@ -117,14 +117,14 @@
 }
 
 .lcs h2, .waverly h2{
-  font-size: 1.5em;
+  font-size: 1.25em;
   width: 70%;
   text-align: center;
   border: #6d637a;
   background-color: #6d637a;
   border-width: 2px;
   border-radius: 20px;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .lcs h3, .waverly h3{

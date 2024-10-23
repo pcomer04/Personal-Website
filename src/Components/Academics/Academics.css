@@ -5,7 +5,6 @@
 }
 
 .experience {
-
   height: 750px;
   display: flex;
   flex-direction: column;
@@ -33,17 +32,6 @@
   z-index: 2;
 }
 
-.carousel .slide img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .carousel .legend {
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-  }
 
 .skills {
   height: 750px;
@@ -69,16 +57,21 @@
   margin-top: 5%;
 }
 
-.skill1, .skill2, .skill3, .skill4, .skill5, .skill6 {
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    background-color: #595166;
-    color: white;
-    font-size: 1.5rem; 
-    padding: 20px; 
-    border-radius: 10px;
-  }
+.skill1,
+.skill2,
+.skill3,
+.skill4,
+.skill5,
+.skill6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #595166;
+  color: white;
+  font-size: 1.5rem;
+  padding: 20px;
+  border-radius: 10px;
+}
 
 .skill1 {
   grid-area: skill1;

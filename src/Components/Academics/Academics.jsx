@@ -2,6 +2,8 @@ import React from "react";
 import "./Academics.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import doppelHanger from "../../Assets/student/doppelhanger.png";
+// import nasaSuits from "../../Assets/student/nasa-suits.png";
 
 const Academics = () => {
   return (
@@ -12,26 +14,6 @@ const Academics = () => {
 
       <div className="projects">
         <h1 className="academic-title">Projects</h1>
-        <Carousel
-          showThumbs={false}
-          infiniteLoop={true}
-          autoPlay={true}
-          interval={3000}
-          showStatus={false}
-        >
-          <div>
-            <img src="path/to/project1.jpg" alt="Project 1" />
-            <p className="legend">Project 1 Description</p>
-          </div>
-          <div>
-            <img src="path/to/project2.jpg" alt="Project 2" />
-            <p className="legend">Project 2 Description</p>
-          </div>
-          <div>
-            <img src="path/to/project3.jpg" alt="Project 3" />
-            <p className="legend">Project 3 Description</p>
-          </div>
-        </Carousel>
       </div>
 
       <div className="skills">
