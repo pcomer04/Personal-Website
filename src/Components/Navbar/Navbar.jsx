@@ -63,8 +63,8 @@ const Navbar = () => {
 
         {/* need to add in-page routing/jumping */}
         <div className="musician-text">
-          <h2 className="musician-info">Performance</h2>
-          <h2 className="musician-info">Teaching</h2>
+          <h2 className="musician-info"><a href="#performance-experience">Performance</a></h2>
+          <h2 className="musician-info"><a href="#teaching">Teaching</a></h2>
         </div>
 
         <h2 className="contact-title">

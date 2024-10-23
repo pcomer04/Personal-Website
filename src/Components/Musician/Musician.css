@@ -32,6 +32,7 @@
 }
 
 .musician-title {
+  margin-top: 3%;
   color: white;
   text-align: center;
   font-size: 2.5em;
@@ -43,4 +44,67 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
+}
+
+.teaching-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0% 15%;
+  grid-auto-flow: row;
+  grid-template-areas: "lcs waverly";
+  width: 50%;
+  height: 50%;
+}
+
+.lcs, .waverly {
+  background:#595166;
+  border-radius: 50px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12%;
+  overflow: hidden;
+}
+
+.lcs h1, .waverly h1{
+  font-size: 2.5em;
+  text-align: center;
+  margin: 0%;
+}
+
+.lcs h2, .waverly h2{
+  font-size: 1.5em;
+  width: 70%;
+  text-align: center;
+  border: #6d637a;
+  background-color: #6d637a;
+  border-width: 2px;
+  border-radius: 20px;
+  margin-top: 10%;
+}
+
+.lcs h3, .waverly h3{
+  position: relative;
+  font-size: 1.5em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+  background: linear-gradient(to right, #c766ff, #9932d5);
+  width: 100%;
+  flex-grow: 1;
+  margin: 0;
+}
+
+.lcs {
+  grid-area: lcs;
+}
+
+.waverly {
+  grid-area: waverly;
 }

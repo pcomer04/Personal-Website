@@ -5,6 +5,7 @@
 }
 
 .experience {
+
   height: 750px;
   display: flex;
   flex-direction: column;
@@ -12,6 +13,7 @@
   justify-content: flex-start;
   align-items: center;
   padding-top: 60px;
+  margin-top: 2%;
 }
 
 .academic-title {
@@ -68,14 +70,14 @@
 }
 
 .skill1, .skill2, .skill3, .skill4, .skill5, .skill6 {
-    display: flex; /* Enable Flexbox */
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
     background-color: #595166;
-    color: white; /* Optional: Set text color */
-    font-size: 1.5rem; /* Optional: Set font size */
-    padding: 20px; /* Optional: Add padding */
-    border-radius: 10px; /* Optional: Add rounded corners */
+    color: white;
+    font-size: 1.5rem; 
+    padding: 20px; 
+    border-radius: 10px;
   }
 
 .skill1 {
