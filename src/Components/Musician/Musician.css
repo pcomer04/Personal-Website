@@ -45,7 +45,7 @@
 }
 
 .performance-image p {
-  top: 20%; 
+  top: 25%; 
   left: 5%;
   color: white;
 }
@@ -59,14 +59,15 @@
 }
 
 .performance-image h2 {
-  bottom: 12%; 
+  bottom: 20%; 
   left: 5%;
   color: #c766ff;
 }
 
 #cmb-h1{
   margin: 0;
-  top: 36%;
+  top: 40%;
+  width: 30%;
 }
 
 

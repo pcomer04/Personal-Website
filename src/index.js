@@ -9,6 +9,7 @@ import Academics from './Components/Academics/Academics';
 import Navbar from './Components/Navbar/Navbar';
 import Musician from './Components/Musician/Musician';
 import "@fontsource/eb-garamond";
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 export {
   Home,

@@ -5,14 +5,83 @@
 }
 
 .experience {
-  height: 750px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   top: 60px;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 60px;
   margin-top: 2%;
+  position: relative;
+}
+
+.timeline-main-container {
+  border-left: 2px solid #595166;
+  margin-left: 40%;
+  position: relative;
+}
+
+.xyz::before {
+  content: "";
+  border-radius: 50%;
+  height: 20px; 
+  width: 20px; 
+  border: 2px solid #595166;
+  background-color: #2f2a38;
+  position: absolute; 
+  left: -63px; 
+}
+
+.xyz {
+  margin-left: 51px;
+  position: relative; /* Added */
+}
+
+.xyz:nth-child(1)::before {
+  top: 10px; 
+}
+
+.xyz:nth-child(2)::before {
+  top: 10px; 
+}
+
+.xyz:nth-child(3)::before {
+  top: 10px; 
+}
+
+.xyz:nth-child(4)::before {
+  top: 10px; 
+}
+
+.timeline-main-container h1{
+  color:#c766ff;
+  text-shadow: black 1px 1px 2px;
+}
+.timeline-main-container h2{
+  color:white;
+  text-shadow: black 1px 1px 2px;
+}
+
+.timeline-main-container p{
+  color:#B6ABC4;
+  text-shadow: black 1px 1px 2px;
+  width: 60%;
+}
+
+
+.date {
+  position: absolute;
+  left: -400px; 
+  top: 20%;
+  transform: translateY(-50%);
+  white-space: nowrap; 
+  color: white; 
+  font-size: 1.5em;
+  font-weight: bold;
+  background: linear-gradient(to right, #c766ff, #9932d5);
+  border-radius: 20px;
+  padding: 5px 10px; 
+  text-shadow: black 1px 1px 2px;
 }
 
 .academic-title {
@@ -31,7 +100,6 @@
   align-items: center;
   z-index: 2;
 }
-
 
 .skills {
   height: 750px;
@@ -69,8 +137,40 @@
   background-color: #595166;
   color: white;
   font-size: 1.5rem;
-  padding: 20px;
   border-radius: 10px;
+  flex-direction: column;
+}
+
+.skill1 img,
+.skill2 img,
+.skill3 img,
+.skill4 img,
+.skill5 img,
+.skill6 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 40%;
+  height: 90%;
+  margin: 0;
+  padding: 0;
+}
+
+.skill1 h3,
+.skill2 h3,
+.skill3 h3,
+.skill4 h3,
+.skill5 h3,
+.skill6 h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 40%;
+  height: 90%;
+  margin: 0;
+  padding: 0;
 }
 
 .skill1 {
