@@ -5,7 +5,6 @@
 }
 
 .performance-experience {
-  height: 1500px;
   display: flex;
   flex-direction: column;
   top: 60px;
@@ -16,20 +15,60 @@
 }
 
 .performance-image {
+  position: relative;
   background-color: #2f2a38;
   border: #2f2a38;
-  border-width: 5px;
   border-style: solid;
   border-radius: 20px;
-  width: 75%;
+  width: 80%;
   overflow: hidden;
-  height: 25%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Add a subtle shadow */
-  margin-bottom: 40px; /* Add some space between images */
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  margin-bottom: 40px; 
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.performance-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px; 
+  object-fit: cover; 
+}
+
+.performance-image p,
+.performance-image h1,
+.performance-image h2 {
+  position: absolute; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.performance-image p {
+  top: 20%; 
+  left: 5%;
+  color: white;
+}
+
+.performance-image h1 {
+  top: 35%;
+  left: 5%;
+  font-size: 3em;
+  color: white;
+  width: 50%;
+}
+
+.performance-image h2 {
+  bottom: 12%; 
+  left: 5%;
+  color: #c766ff;
+}
+
+#cmb-h1{
+  margin: 0;
+  top: 36%;
+}
+
 
 .musician-title {
   margin-top: 3%;
@@ -39,7 +78,7 @@
 }
 
 .teaching {
-  height: 750px;
+  height: 700px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -55,6 +94,7 @@
   grid-template-areas: "lcs waverly";
   width: 50%;
   height: 50%;
+  margin-top: 5%;
 }
 
 .lcs, .waverly {
@@ -84,7 +124,7 @@
   background-color: #6d637a;
   border-width: 2px;
   border-radius: 20px;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .lcs h3, .waverly h3{

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
-import scoutsPic from "../../Assets/musician/finals-scouts-lot.jpg";
-import studentPic from "../../Assets/student/big-n.JPG";
+import scoutsPic from "../../Assets/musician/musician.jpg";
+import studentPic from "../../Assets/student/academic.jpg";
 
 const Home = () => {
   return (
