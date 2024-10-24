@@ -27,7 +27,7 @@ const Contact = () => {
               <FaPhone className="icon" /> 531-205-0580
             </p>
             <p className="resume">
-              <a href={resume} download={true}>
+              <a href={resume} download={"Peyton_Comer_Resume.pdf"}>
                 <IoMdDownload className="icon" />
               </a>
               Resume
