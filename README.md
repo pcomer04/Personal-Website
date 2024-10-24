@@ -21,6 +21,7 @@ This portfolio website is built using the following technologies:
 - **CSS**: For styling and design.
 - **JavaScript**: For interactive features.
 - **React**: For building the user interface and managing state.
+- **AWS**: For hosting the deployed build, used the Amplify service.
 
 ## Features
 
@@ -28,6 +29,7 @@ This portfolio website is built using the following technologies:
 - **Academic Section**: Showcases the experiences and projects I have done while in College.
 - **Musician Section**: Details about my main extra curricular, music.
 - **Contact Form**: Allows visitors to get in touch with me directly with an option to download my resume.
+- **Deployed**: Fully deployed web app. Custom domain, hosted through AWS Amplify.
 
 ## Contact
 - **Phone Number**: 531-205-0580
