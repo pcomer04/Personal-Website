@@ -66,8 +66,8 @@
 
 #cmb-h1{
   margin: 0;
-  top: 40%;
-  width: 30%;
+  top: 35%;
+  width: 40%;
 }
 
 
@@ -79,7 +79,7 @@
 }
 
 .teaching {
-  height: 70vh;
+  height: 85vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;

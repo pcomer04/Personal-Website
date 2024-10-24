@@ -1,9 +1,11 @@
 import React from "react";
 import "./Contact.css";
 import headshot from "../../Assets/student/Headshot.jpg";
-import { ReactComponent as GithubIcon } from "../../Assets/icons/icons8-github.svg";
-import { ReactComponent as LinkedinIcon } from "../../Assets/icons/icons8-linkedin.svg";
+import linkedinIcon from "../../Assets/icons/linkedin.svg";
+import githubIcon from "../../Assets/icons/github.svg";
+import resume from "../../Assets/student/Resume-Download.pdf";
 import { FaPhone } from "react-icons/fa6";
+import { IoMdDownload } from "react-icons/io";
 import { MdOutlineEmail } from "react-icons/md";
 
 const Contact = () => {
@@ -16,17 +18,31 @@ const Contact = () => {
         <div className="contact-info">
           <h1>Contact Information</h1>
           <div className="information">
-            <p className="email"> <MdOutlineEmail className="icon"/> pcomer04@centurylink.net</p>
-            <p className="phone"> <FaPhone className="icon"/> 531-205-0580</p>
-            
+            <p className="email">
+              {" "}
+              <MdOutlineEmail className="icon" /> pcomer04@centurylink.net
+            </p>
+            <p className="phone">
+              {" "}
+              <FaPhone className="icon" /> 531-205-0580
+            </p>
+            <p className="resume">
+              <a href={resume} download={true}>
+                <IoMdDownload className="icon" />
+              </a>
+              Resume
+            </p>
           </div>
           <div className="socials">
             <a href="https://github.com/pcomer04">
-              <GithubIcon className="github" />
+              <img src={githubIcon} alt="github-icon" className="github" />
             </a>
             <a href="https://www.linkedin.com/in/peyton-comer-b3a7b7229/">
-              {" "}
-              <LinkedinIcon className="linkedin" />
+              <img
+                src={linkedinIcon}
+                alt="linkedIn-icon"
+                className="linkedin"
+              />
             </a>
           </div>
         </div>

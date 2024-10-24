@@ -5,13 +5,12 @@
 }
 
 .experience {
-  height: 125vh;
+  height: 165vh;
   display: flex;
   flex-direction: column;
-  top: 60px;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 2%;
+  top: 60px;
   position: relative;
 }
 
@@ -92,7 +91,7 @@
 }
 
 .projects {
-  height: 95vh;
+  height: 100vh;
   background: linear-gradient(to right, #c766ff, #9932d5);
   display: flex;
   flex-direction: column;

@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20%;
+  height: 25%;
   width: 100%;
   background-image: linear-gradient(to right, #c766ff, #9932d5);
   top: 35%;
@@ -28,7 +28,6 @@
   overflow: hidden;
   width: 350px;
   height: 350px;
-  
 }
 
 .headshot img {
@@ -55,30 +54,44 @@
   font-weight: bold;
 }
 
-.contact-info .information{
-    display: flex;
-    flex-direction: column;
-    margin-top: -10%;
+.contact-info .information {
+  display: flex;
+  flex-direction: column;
+  margin-top: -10%;
+  gap: 0px;
 }
 
 .contact-info p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
   display: flex;
   align-items: center;
+  margin: 2%;
 }
 
-.email .icon{
+.email .icon {
   width: 9%;
   height: 9%;
   padding-right: 4%;
-  
 }
 
-.phone .icon{
+.phone .icon {
   width: 8%;
   height: 8%;
   padding-right: 5%;
+}
+
+.resume {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.resume .icon {
+  width: 50px;
+  height: auto;
+  margin-left: -15%;
 }
 
 .socials {

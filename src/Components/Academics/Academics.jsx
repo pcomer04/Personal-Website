@@ -16,7 +16,7 @@ import softwareEngineeringPhoto from "../../Assets/student/grocery.png";
 const Academics = () => {
   return (
     <div className="academic-page">
-      <div className="experience">
+      <div id="experience" className="experience">
         <h1 className="academic-title">Experience</h1>
         <div className="timeline-main-container">
           <div className="timeline-first-container xyz">
@@ -68,7 +68,7 @@ const Academics = () => {
         </div>
       </div>
 
-      <div className="projects">
+      <div id="projects" className="projects">
         <h1 className="academic-title">Projects</h1>
         <div className="carousel-container">
           <Carousel
@@ -165,7 +165,7 @@ const Academics = () => {
         </div>
       </div>
 
-      <div className="skills">
+      <div id="skills" className="skills">
         <h1 className="academic-title">Skills</h1>
         <div className="skills-grid">
           <div className="skill1">
