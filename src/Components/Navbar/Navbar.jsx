@@ -41,11 +41,16 @@ const Navbar = () => {
           <a href="/">Peyton Comer</a>
         </h1>
 
-        {/* need to add in-page routing/jumping */}
         <div className="academic-text">
-          <h2 className="academic-info">Experience</h2>
-          <h2 className="academic-info">Projects</h2>
-          <h2 className="academic-info">Skills</h2>
+          <h2 className="academic-info">
+            <a href="#experience">Experience</a>
+          </h2>
+          <h2 className="academic-info">
+            <a href="#projects"> Projects</a>
+          </h2>
+          <h2 className="academic-info">
+            <a href="#skills">Skills </a>
+          </h2>
         </div>
         <h2 className="contact-title">
           <a href="/contact">Contact</a>
@@ -61,10 +66,14 @@ const Navbar = () => {
           <a href="/">Peyton Comer</a>
         </h1>
 
-        {/* need to add in-page routing/jumping */}
+        
         <div className="musician-text">
-          <h2 className="musician-info"><a href="#performance-experience">Performance</a></h2>
-          <h2 className="musician-info"><a href="#teaching">Teaching</a></h2>
+          <h2 className="musician-info">
+            <a href="#performance-experience">Performance</a>
+          </h2>
+          <h2 className="musician-info">
+            <a href="#teaching">Teaching</a>
+          </h2>
         </div>
 
         <h2 className="contact-title">

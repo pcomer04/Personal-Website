@@ -33,6 +33,7 @@
 .navbar .contact-title {
   position: relative;
   padding-right: 3%;
+  font-size: 1.7em;
 }
 
 .navbar .musician-text {
@@ -45,7 +46,7 @@
 
 .navbar .musician-info {
   margin: 10%;
-  font-weight: lighter;
+  font-weight: 400;
 }
 
 .navbar .academic-text {
@@ -59,6 +60,6 @@
 
 .navbar .academic-info {
   margin: 10%;
-  font-weight: lighter;
+  font-weight: 400;
 }
 
