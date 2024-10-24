@@ -5,12 +5,12 @@
 }
 
 .experience {
-  height: 165vh;
+  height: 150vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  top: 60px;
+  top: 80px;
   position: relative;
 }
 
@@ -99,14 +99,16 @@
   justify-content: flex-start;
   align-items: center;
   z-index: 2;
+  margin-top: 10%;
 }
 
 .skills {
-  height: 90vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
+  margin-top: 2%;
 }
 
 .skills-grid {

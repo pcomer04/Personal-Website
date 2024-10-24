@@ -75,8 +75,8 @@ const Musician = () => {
         <div class="teaching-container">
           <div class="lcs">
             <h2>May 2024 - Present</h2>
-            <h1>Precussion Instrcutor</h1>
-            <h3>Lincoln Chrsitian School</h3>
+            <h1>Percussion Instrcutor</h1>
+            <h3>Lincoln Christian School</h3>
           </div>
           <div class="waverly">
             <h2>Aug 2024 - Present</h2>

@@ -63,3 +63,6 @@
   font-weight: 400;
 }
 
+.navbar a:hover{
+  color:  #595166;
+}
