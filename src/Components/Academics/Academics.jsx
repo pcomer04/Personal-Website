@@ -135,11 +135,15 @@ const Academics = () => {
               />
               <div id="legend">
                 <p>
-                  As a personal project I took on the endeavor of designing a
-                  portfolio website. Focused on learning good programming
-                  practices with React and honing CSS skills. Another goal was
-                  to learn how to host a website and I accomplished that with
-                  GitHub.
+                  <a href="https://github.com/pcomer04/Personal-Website"
+                    target="_blank"
+                    rel="noreferrer">
+                    As a personal project I took on the endeavor of designing a
+                    portfolio website. Focused on learning good programming
+                    practices with React and honing CSS skills. Another goal was
+                    to learn how to host a website and I accomplished that with
+                    GitHub.
+                  </a>
                 </p>
               </div>
             </div>
