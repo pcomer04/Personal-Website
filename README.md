@@ -2,6 +2,8 @@
 
 Welcome to my personal portfolio website! This site showcases my academic and extracurricular invovlvement as well as being a tool to practice my frontend development skills.
 
+[Accessible at peyton-comer.com](https://peyton-comer.com)
+
 ## Table of Contents
 
 - [About Me](#about-me)
