@@ -33,7 +33,7 @@ const Academics = () => {
           <div className="timeline-second-container xyz">
             <h1>Undergraduate Research Assistant</h1>
             <h2>College of Engineering - UNL</h2>
-            <time className="date">Aug 2023 - Present</time>
+            <time className="date">Aug 2023 - May 2025</time>
             <p>
               Utilized advanced machine learning algorithms for the analysis of
               genetic sequences. Collaborated on creating a scalable web
