@@ -22,7 +22,7 @@ const Academics = () => {
           <div className="timeline-first-container xyz">
             <h1>Computer Science Course Leader</h1>
             <h2>CSCE Department - UNL</h2>
-            <time className="date">Jan 2023 - Present</time>
+            <time className="date">Jan 2023 - May 2025</time>
             <p>
               Promoted after demonstrating leadership and innovation in helping
               students grasp core computer science concepts. Managed, mentored,
@@ -56,7 +56,7 @@ const Academics = () => {
           <div className="timeline-fourth-container xyz">
             <h1>Bachelor's of Computer Science</h1>
             <h2>University of Nebraska-Lincoln</h2>
-            <time className="date">Aug 2022 - Present</time>
+            <time className="date">Aug 2022 - May 2025</time>
             <p>
               Currently enrolled in a computer science degree. Involved in the
               learning and advancement of my career. Spend time learning new

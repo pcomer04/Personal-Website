@@ -66,7 +66,7 @@ const Musician = () => {
               Cornhusker Marching Band
             </a>
           </h1>
-          <h2>Aug 2022 - Present</h2>
+          <h2>Aug 2022 - December 2024</h2>
         </div>
       </div>
 
@@ -74,12 +74,12 @@ const Musician = () => {
         <h1 className="musician-title">Teaching Experience</h1>
         <div class="teaching-container">
           <div class="lcs">
-            <h2>May 2024 - Present</h2>
+            <h2>May 2024 - December 2024</h2>
             <h1>Percussion Instrcutor</h1>
             <h3>Lincoln Christian School</h3>
           </div>
           <div class="waverly">
-            <h2>Aug 2024 - Present</h2>
+            <h2>Aug 2024 - December 2024</h2>
             <h1>Bass Drum Instructor</h1>
             <h3>Waverly High School</h3>
           </div>
